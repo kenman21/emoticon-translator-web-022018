@@ -3,6 +3,7 @@ require "yaml"
 
 def load_library(path)
   jap = YAML.load_file(path)
+  meaning = ["angel", "angry", "bored"]
   out = {get_meaning => {}, get_emoticon => {}}
   out.each do |getters, details|
     jap.each do |emoticons|
