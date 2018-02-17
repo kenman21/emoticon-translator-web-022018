@@ -7,6 +7,7 @@ def load_library(path)
   get_meaning_val = {}
   get_emoticon_val = {}
   out
+  jap
 end
 
 load_library(emoticons.yml)
