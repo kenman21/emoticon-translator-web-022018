@@ -7,7 +7,6 @@ def load_library(path)
   out.each do |getters, details|
     jap.each do |meanings, emoticons|
       
-      get_meaning[emoticons] =>
 end
 
 def get_japanese_emoticon
