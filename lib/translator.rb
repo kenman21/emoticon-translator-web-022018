@@ -10,7 +10,7 @@ def load_library(path)
     get_meaning_val[emoticons[1]] = meanings 
     get_emoticon_val[emoticons[0]] = emoticons[1]
   end 
-  out = {get_meaning => get_meaning_val, get_emoticon => get_emoticon_val}
+  out = "{"get_meaning" => get_meaning_val, get_emoticon => get_emoticon_val}
   out
 end
 
